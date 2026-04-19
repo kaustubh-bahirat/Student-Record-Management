@@ -1,49 +1,51 @@
 public class HashTable {
-    static final int SIZE = 100;
-    Student[] table = new Student[SIZE];
+   static final int SIZE = 100;
+   Student[] table = new Student[100];
 
-    int hashFunction(int rollNo) {
-        return rollNo % SIZE;
-    }
+   public HashTable() {
+   }
 
-    public void insert(Student s) {
-        int index = hashFunction(s.rollNo);
+   int hashFunction(int var1) {
+      return var1 % 100;
+   }
 
-        while (table[index] != null) {
-            index = (index + 1) % SIZE;
-        }
+   public void insert(Student var1) {
+      int var2;
+      for(var2 = this.hashFunction(var1.rollNo); this.table[var2] != null; var2 = (var2 + 1) % 100) {
+      }
 
-        table[index] = s;
-    }
+      this.table[var2] = var1;
+   }
 
-    public Student search(int rollNo) {
-        int index = hashFunction(rollNo);
-        int start = index;
+   public Student search(int var1) {
+      int var2 = this.hashFunction(var1);
+      int var3 = var2;
 
-        while (table[index] != null) {
-            if (table[index].rollNo == rollNo) {
-                return table[index];
-            }
-            index = (index + 1) % SIZE;
+      while(this.table[var2] != null) {
+         if (this.table[var2].rollNo == var1) {
+            return this.table[var2];
+         }
 
-            if (index == start) break;
-        }
-        return null;
-    }
+         var2 = (var2 + 1) % 100;
+         if (var2 == var3) {
+            break;
+         }
+      }
 
-    public void delete(int rollNo) {
-        int index = hashFunction(rollNo);
+      return null;
+   }
 
-        while (table[index] != null) {
-            if (table[index].rollNo == rollNo) {
-                table[index] = null;
-                return;
-            }
-            index = (index + 1) % SIZE;
-        }
-    }
+   public void delete(int var1) {
+      for(int var2 = this.hashFunction(var1); this.table[var2] != null; var2 = (var2 + 1) % 100) {
+         if (this.table[var2].rollNo == var1) {
+            this.table[var2] = null;
+            return;
+         }
+      }
 
-    public Student[] getAll() {
-        return table;
-    }
+   }
+
+   public Student[] getAll() {
+      return this.table;
+   }
 }
