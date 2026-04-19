@@ -58,7 +58,7 @@ Student-Record-Management/
 
 ---
 
-## 👨‍💻 Team Members
+##  Team Members
 
 | Name             | Roll Number | Responsibility                         |
 | ---------------- | ----------- | -------------------------------------- |
@@ -79,7 +79,7 @@ Student-Record-Management/
 
 ---
 
-## 🎯 Learning Outcomes
+##  Learning Outcomes
 
 * Understanding of **Hashing and Data Structures**
 * Hands-on experience with **Java programming**
@@ -89,7 +89,7 @@ Student-Record-Management/
 
 ---
 
-## 📌 Future Enhancements
+##  Future Enhancements
 
 * File handling (data persistence)
 * Advanced GUI (tables, sorting, filters)
@@ -98,7 +98,7 @@ Student-Record-Management/
 
 ---
 
-## ⭐ Conclusion
+## Conclusion
 
 This project demonstrates how data structures like hash tables can be used in real-world applications along with GUI to efficiently manage and organize student data.
 
