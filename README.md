@@ -1,4 +1,4 @@
-# Student Record Management System (Java + GUI)
+# Student Record Management System
 ## Project Description
 
 This project is a **Student Record Management System** developed in Java that allows efficient management of student data such as roll number, name, department, and marks.
