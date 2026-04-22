@@ -1,4 +1,4 @@
-# Student Record Management System (Java + GUI)
+# Student Record Management System 
 ## Project Description
 
 This project is a **Student Record Management System** developed in Java that allows efficient management of student data such as roll number, name, department, and marks.
@@ -58,7 +58,7 @@ Student-Record-Management/
 
 ---
 
-## 👨‍💻 Team Members
+##  Team Members
 
 | Name             | Roll Number | Responsibility                         |
 | ---------------- | ----------- | -------------------------------------- |
@@ -72,14 +72,12 @@ Student-Record-Management/
 
 ##  GitHub Workflow
 
-* Each member works on a separate **feature branch**
+* Each member works on their file 
 * Code is committed and pushed to GitHub
-* Pull Requests (PRs) are created and reviewed
-* Final code is merged into the **main branch**
 
 ---
 
-## 🎯 Learning Outcomes
+##  Learning Outcomes
 
 * Understanding of **Hashing and Data Structures**
 * Hands-on experience with **Java programming**
@@ -89,7 +87,7 @@ Student-Record-Management/
 
 ---
 
-## 📌 Future Enhancements
+##  Future Enhancements
 
 * File handling (data persistence)
 * Advanced GUI (tables, sorting, filters)
@@ -98,7 +96,7 @@ Student-Record-Management/
 
 ---
 
-## ⭐ Conclusion
+##  Conclusion
 
 This project demonstrates how data structures like hash tables can be used in real-world applications along with GUI to efficiently manage and organize student data.
 
